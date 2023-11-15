@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0px;
+  border: 0px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-size: 2.2em;
+}
+
+html,
+p,
+a,
+h1,
+h2,
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagem {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.spotify-logo {
+  flex-shrink: 0;
+  width: 30%;
+  padding: 10px;
+  width: 100vw fit-content;
+}
+
+.nav-buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-buttons li {
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.3em;
+}
+
+.slogan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  width: 100vw fit-content;
+  height: 100vh;
+}
+
+.slogan h1 {
+  font-size: 4em;
+}
+
+.slogan h3 {
+  font-weight: lighter;
+}
+
+.mid-section-title {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-underline-offset: 10px;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 102px;
+}
+
+.icon {
+  max-width: 50%;
+  max-height: 50%;
+  box-sizing: content-box;
+  display: block; /* Remove default inline spacing */
+  margin: 0 auto;
+}
+
+.cards h3 {
+  color: #00b172;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: justify;
+  align-items: center;
+  background-color: #00b172;
+  color: #fff;
+  flex: 1;
+  padding: 20px;
+}
+
+.features-container-text-title {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.features-container-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.features-container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-container-image-spotify {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
